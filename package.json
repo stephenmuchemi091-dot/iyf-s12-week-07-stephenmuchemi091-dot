@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write \"**/*.{js,html,css}\"",
+        "test": "vitest run"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.14.0"
+    }
+}
